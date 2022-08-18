@@ -1,0 +1,36 @@
+.navbar{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color-secondary);
+}
+.navbar h1{
+    color: var(--color-text);
+    font-size: 1.2rem;
+}
+.navbar .links{
+    margin-left: auto;
+}
+.navbar a{
+    margin-left: .6rem;
+    text-decoration: none;
+    padding: 0.6rem;
+    color: var(--color-text);
+}
+.links a:hover{
+    color: var(--color-primary);
+}
+
+@media screen and (min-width:1024px) {
+    
+}
+
+@media screen and (min-width=768px) and (max-width=1023px) {
+
+}
+
+@media screen and (min-width=200px) and (max-width=767px) {
+
+}

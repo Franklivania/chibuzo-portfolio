@@ -1,0 +1,43 @@
+.skills{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.skills h1{
+    flex-basis: 100%;
+    margin: 2rem;
+    text-align: start;
+}
+.skill-pod{
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    padding: 1rem;
+    border: 0.2rem solid var(--color-secondary);
+    border-radius: 0.6rem;
+    transition: transform 0.5s;
+    cursor: pointer;
+    z-index: 9999;
+}
+#rs{
+    width: 13rem;
+    height: 5rem;
+}
+.skill-pod:hover{
+    box-shadow: 0 0.4rem 0.5rem rgba(var(--color-shadow),0.5);
+    transform: translateY(-1rem);
+}
+#skill{
+    height: 5rem;
+}
+@media screen and (min-width:1024px) {
+    
+}
+@media screen and (min-width=768px) and (max-width=1023px) {
+
+}
+@media screen and (min-width=200px) and (max-width=767px) {
+
+}

@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@import url('http://fonts.cdnfonts.com/css/prometo-trial');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'Prometo Trial';
+    font-style: normal;
+    src: local('Prometo Trial'), url('https://fonts.cdnfonts.com/s/83741/Prometo_Trial_Rg.woff') format('woff');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+    --color-primary: #fff;
+    --color-secondary: rgb(41, 100, 226);
+    --color-text: #000;
+    --color-shadow: 22, 22, 22;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (min-width:1024px) {
+    
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width=768px) and (max-width=1023px) {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width=200px) and (max-width=767px) {
+
 }
