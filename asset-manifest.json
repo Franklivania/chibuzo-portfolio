@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/chibuzo-portfolio/static/css/main.be5fb80c.css",
+    "main.js": "/chibuzo-portfolio/static/js/main.277d7ed5.js",
+    "static/media/cropped 1.png": "/chibuzo-portfolio/static/media/cropped 1.d891540f245344e34000.png",
+    "static/media/react.png": "/chibuzo-portfolio/static/media/react.3ee1770af7fd9e3282ed.png",
+    "static/media/Chibuzo Franklin_Odigbo_Resume.pdf": "/chibuzo-portfolio/static/media/Chibuzo Franklin_Odigbo_Resume.45f534366eac0a062465.pdf",
+    "static/media/css logo.jpg": "/chibuzo-portfolio/static/media/css logo.c606ab148a58f4cfd6a5.jpg",
+    "static/media/spanish.jpg": "/chibuzo-portfolio/static/media/spanish.50c84124afdee6d42b45.jpg",
+    "static/media/english.png": "/chibuzo-portfolio/static/media/english.0b5890f390aee16e8a3c.png",
+    "static/media/HTML logo.png": "/chibuzo-portfolio/static/media/HTML logo.33745eadd572612bdf11.png",
+    "index.html": "/chibuzo-portfolio/index.html",
+    "main.be5fb80c.css.map": "/chibuzo-portfolio/static/css/main.be5fb80c.css.map",
+    "main.277d7ed5.js.map": "/chibuzo-portfolio/static/js/main.277d7ed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be5fb80c.css",
+    "static/js/main.277d7ed5.js"
+  ]
+}
