@@ -39,22 +39,30 @@ const Experience = () => {
         <h1>LANGUAGES</h1>
 
         <div className="skill-pod">
-          <h2>ENGLISH</h2>
+          <h2>ENGLISH <br />
+              fluent
+          </h2>
           <img src={ENGLISH} alt="html logo" id="skill" />
         </div>
 
         <div className="skill-pod">
-          <h2>IGBO</h2>
+          <h2>IGBO <br />
+              fluent
+          </h2>
           <img src={IGBO} alt="html logo" id="skill" />
         </div>
 
         <div className="skill-pod">
-          <h2>SPANISH</h2>
+          <h2>SPANISH <br />
+              intemediate
+          </h2>
           <img src={SPANISH} alt="html logo" id="skill" />
         </div>
 
         <div className="skill-pod">
-          <h2>JAPANESE</h2>
+          <h2>JAPANESE <br />
+              beginner
+          </h2>
           <img src={JAP} alt="html logo" id="skill" id="rs" />
         </div>
         

@@ -24,6 +24,7 @@
 #rs{
     width: 13rem;
     height: 5rem;
+    z-index: 9999;
 }
 .skill-pod:hover{
     box-shadow: 0 0.4rem 0.5rem rgba(var(--color-shadow),0.5);
@@ -35,9 +36,11 @@
 @media screen and (min-width:1024px) {
     
 }
-@media screen and (min-width=768px) and (max-width=1023px) {
-
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
 }
-@media screen and (min-width=200px) and (max-width=767px) {
-
+@media screen and (min-width:200px) and (max-width:767px) {
+    #rs{
+        width: 9rem;
+    }
 }

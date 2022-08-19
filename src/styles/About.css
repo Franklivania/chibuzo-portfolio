@@ -4,6 +4,7 @@
     align-items: center;
     /* width: 100%; */
     margin: 2rem;
+    gap: 5rem;
     background-color: var(--color-primary);
     border: 0.2rem solid var(--color-secondary);
 }
@@ -11,6 +12,17 @@
 .about h2{
     color: var(--color-text);
     animation: moveIn 2s 0.2ms;
+}
+
+button{
+    background-color: var(--color-secondary);
+    padding: 0.4rem;
+    outline: none;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: var(--color-text);
 }
 @keyframes moveIn{
     0%{
@@ -28,7 +40,8 @@
 }
 
 #img{
-    margin-left: auto;
+    position: relative;
+    margin-right: auto;
     border: 0.2rem solid var(--color-secondary);
     border-radius: 0.5rem;
     animation: inFromLeft 2s 0.5ms;
@@ -51,9 +64,24 @@
 @media screen and (min-width:1024px) {
     
 }
-@media screen and (min-width=768px) and (max-width=1023px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
 
 }
-@media screen and (min-width=200px) and (max-width=767px) {
+@media screen and (min-width:200px) and (max-width:767px) {
+
+    .about{
+        display: grid;
+        place-items: center;
+        /* margin: 1rem; */
+    }
+
+    #img{
+        align-self: center;
+        margin: 2rem;
+    }
+
+    .about h2{
+        text-align: center;
+    }
 
 }

@@ -1,6 +1,10 @@
 import React from 'react'
 import'../styles/Header.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+// function toggleMobileMenu(menu){
+//   menu.classList.toggle('open');
+// }
 
 const Header = () => {
   return (
@@ -14,14 +18,21 @@ const Header = () => {
             <a href="/">Skills</a>
             <a href="/">Projects</a>
             <a href="/">Contact</a>
-
-            {/* <a href="https://github.com/Franklivania"><FontAwesomeIcon icon="fa-brands fa-github" /></a>
-            <a href="https://linkedin.com/in/franklin-odigbo-706886202/"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
-            <a href="https://twitter.com/OdigboF"><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
-            <a href="https://franklivania.hashnode.dev/"><FontAwesomeIcon icon="fa-brands fa-hashnode" /></a>
-            <a href="https://discord.com/channels/@me"><FontAwesomeIcon icon="fa-brands fa-discord" /></a> */}
         </div>
       </nav>
+
+      {/* <div id="hamburger-icon" onClick={toggleMobileMenu(this)}>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="mobile-menu">
+                  <a href="/">Home</a> <br/>
+                  <a href="/">About</a> <br/>
+                  <a href="/">Skills</a> <br/>
+                  <a href="/">Projects</a> <br/>
+                  <a href="/">Contact</a> <br/>
+                </div>
+      </div> */}
     
     </div>
 

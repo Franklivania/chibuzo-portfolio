@@ -21,14 +21,28 @@
     --color-shadow: 22, 22, 22;
 }
 
+footer{
+    text-align: center;
+    margin: 2rem auto 0  auto;
+    background-color: var(--color-secondary);
+}
+footer h2{
+    padding: 2rem auto 2rem auto;
+}
 @media screen and (min-width:1024px) {
     
 }
 
-@media screen and (min-width=768px) and (max-width=1023px) {
-
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /* .App{
+        display: grid;
+        place-items: center;
+    } */
 }
 
-@media screen and (min-width=200px) and (max-width=767px) {
-
+@media screen and (min-width:200px) and (max-width:767px) {
+    /* .App{
+        display: grid;
+        place-items: center;
+    } */
 }
